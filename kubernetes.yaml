@@ -36,9 +36,8 @@ spec:
         app: backend
     spec:
       containers:
-        - name: backend-container
-          image: ghcr.io/mrviacava/backend-test:latest
-          imagePullPolicy: Always
+        - name: backend
+          image: mrviacava/backend-devops:9   # o :latest
           ports:
             - containerPort: 3000
           env:

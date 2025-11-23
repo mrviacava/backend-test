@@ -12,6 +12,8 @@ pipeline {
         K8S_NAMESPACE  = "mriquelme"
         K8S_DEPLOYMENT = "backend-deployment"
         K8S_CONTAINER  = "backend-container"
+
+        KUBECONFIG = 'C:\\Users\\matia\\.kube\\config'
     }
 
     stages {
